@@ -40,7 +40,7 @@ inputs:
   # │ ⚡ cv2.LUT: a 256-entry lookup table, one memory read per pixel.
   method:
     description: "none | equalize | clahe | stretch | gamma"
-    default: "clahe"
+    default: "equalize"
   clahe_clip:
     description: "Clip limit: higher = more contrast, more noise"
     default: "2.0"
